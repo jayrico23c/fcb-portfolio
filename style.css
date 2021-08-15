@@ -1,0 +1,55 @@
+
+*{	/* askterist means "for all or universal selector"*/
+
+	/*Default Font*/
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+img{
+	height: 200px;
+	width: 180px;
+}
+
+#landing{
+	height: 80vh; /*vh - viewpoint height*/
+	/*center the cpntent, (image and paragraph) horizontally and vertically using flexbox.*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery{
+	height: 75vh;	/*75% of the section*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	border-radius: 6px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+h2{
+	color: #007bff;
+}
+
+.tools{		/*for class tools*/
+	padding: 25px; /*padding is a space inside the element*/
+	border: 5px solid #f2f2f2; /*thickness, type, color*/
+	margin: 20px; /*margin is a space outside the element*/
+	height: 200px;
+	width: 75%;
+}
+
+html{
+	scroll-behavior: smooth;
+}
